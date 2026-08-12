@@ -1,0 +1,23 @@
+# Secrets
+.env
+.env.local
+.env.*.local
+
+# Dependencies
+node_modules/
+
+# Local/course materials not meant for this repo
+New SOPs/
+quote-app-demo/
+
+# Claude Code local-only settings
+.claude/settings.local.json
+
+# Test/debug artifacts
+.playwright-mcp/
+desktop-1440.png
+mobile-375.png
+
+# OS junk
+.DS_Store
+Thumbs.db
